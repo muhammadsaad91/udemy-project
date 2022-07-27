@@ -57,7 +57,7 @@ ul li a:hover{
 }
 .info{
   height: 70vh;
-  width: 80%;
+  width: 100%;
   /* border: 2px solid red; */
   overflow: hidden;
   background-image: url('./bk1.jpg');
@@ -65,6 +65,7 @@ ul li a:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin-top: -1rem;
 
   
 }
@@ -211,7 +212,15 @@ left: -2.25rem;
 .next {
 right: -2.25rem;
 }
-
+@media screen and (max-width: 1149px) {
+   html{
+    font-size: 90%;
+   }
+   .navbar{
+    height: 10vh;
+    /* padding-bottom: 2rem; */
+   }
+}
 @media screen and (max-width: 768px) {
 .testimonials {
   max-height: 700px;
